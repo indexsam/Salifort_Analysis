@@ -14,9 +14,11 @@ This model helps predict whether an employee will leave and identify which facto
 These insights can help HR make decisions to improve employee retention.
 
 ![Decision Tree](https://github.com/indexsam/Salifort_Analysis/blob/master/Ds_feat.PNG)
+
 Barplot above shows the most relevant variables: ‘last_evaluation’, ‘number_project’,  ‘tenure’ and ‘overworked’.
 
 ![random Forest](https://github.com/indexsam/Salifort_Analysis/blob/master/rf_feat.PNG)
+
 In the random forest model above, `last_evaluation`, `tenure`, `number_project`, `overworked`, `salary_low`, and `work_accident` have the highest importance. 
 These variables are most helpful in predicting the outcome variable, `left`.
 
